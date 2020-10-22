@@ -1,0 +1,19 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    template = """
+    <html>
+      {% load ... %}
+      <link rel="stylesheet" href="{% ... %}">
+    </html>
+    """
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10057
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10057">JetBrains
+    Academy</a></html>
+  time: Mon, 12 Oct 2020 21:51:09 UTC
+record: -1

@@ -1,0 +1,36 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    from datetime import datetime
+
+
+    def get_release_date(release_str):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9819
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 9. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    Day of release: 4 July 2019
+    Correct output:
+    2019-07-04 00:00:00
+
+    Your code output:
+
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 8, in <module>
+        print(get_release_date(_input_str))
+      File "jailed_code", line 5, in get_release_date
+        day = datetime.strftime(release_str, '%Y-%m-d H:M:S')
+    TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+  time: Fri, 02 Oct 2020 22:55:41 UTC
+record: -1

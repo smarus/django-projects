@@ -1,0 +1,10 @@
+{% extends 'base_view.html' %}
+{%block content%}
+{%for entry in entries.items%}
+<ul>
+    <li>
+        <a target="_blank" href="/get_ticket/{{entry.0}}">{{entry.1}}</a>
+    </li>
+</ul>
+{%endfor%}
+{% endblock %}

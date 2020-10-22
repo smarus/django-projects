@@ -1,0 +1,20 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    import time
+
+    start =   # write your code here
+    end =   # write your code here
+
+    total_time = end - start
+    print(f"The program has executed for {total_time} seconds.")
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10972
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10972">JetBrains
+    Academy</a></html>
+  time: Mon, 19 Oct 2020 19:07:36 UTC
+record: -1
