@@ -1,0 +1,12 @@
+{% extends 'base_view.html' %}
+{%block content%}
+<div><p>Change oil queue: {{data.change_oil}}</p></div>
+<div><p>Inflate tires queue: {{data.inflate_tires}}</p></div>
+<div><p>Get diagnostic queue: {{data.diagnostic}}</p></div>
+
+
+<form method="post" action="/processing">{% csrf_token %}
+  <button type="submit">Process next</button>
+</form>
+
+{% endblock %}

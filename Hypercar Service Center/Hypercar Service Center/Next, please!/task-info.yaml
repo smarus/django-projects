@@ -809,6 +809,66 @@ files:
         """ Reports success """
         print("#educational_plugin test OK")
   learner_created: false
+- name: hypercar/tickets/templates/tickets/get_ticket.html
+  visible: true
+  text: |-
+    {% extends 'base_view.html' %}
+    {%block content%}
+    <div><p>Your number is {{ticket.ticket_number}}</p></div>
+    <div><p>Please wait around {{ticket.time}} minutes</p></div>
+    {% endblock %}
+  learner_created: true
+- name: hypercar/tickets/templates/base_view.html
+  visible: true
+  text: |-
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HyperService</title>
+    </head>
+    <body>
+    {%block content%}
+    {%endblock%}
+    </body>
+    </html>
+  learner_created: true
+- name: hypercar/tickets/templates/tickets/menu_view.html
+  visible: true
+  text: |
+    {% extends 'base_view.html' %}
+    {%block content%}
+    {%for entry in entries.items%}
+    <ul>
+        <li>
+            <a target="_blank" href="/get_ticket/{{entry.0}}">{{entry.1}}</a>
+        </li>
+    </ul>
+    {%endfor%}
+    {% endblock %}
+  learner_created: true
+- name: hypercar/tickets/templates/tickets/processing_view.html
+  visible: true
+  text: |-
+    {% extends 'base_view.html' %}
+    {%block content%}
+    <div><p>Change oil queue: {{data.change_oil}}</p></div>
+    <div><p>Inflate tires queue: {{data.inflate_tires}}</p></div>
+    <div><p>Get diagnostic queue: {{data.diagnostic}}</p></div>
+
+    <form method="post">{% csrf_token %}
+      <button type="submit">Process next</button>
+    </form>
+
+    {% endblock %}
+  learner_created: true
+- name: hypercar/tickets/templates/tickets/next_view.html
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/85/stages/474/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/85/stages/474/implement">JetBrains
+    Academy</a>
+  time: Sat, 24 Oct 2020 11:26:21 UTC
 record: -1

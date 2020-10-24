@@ -753,10 +753,9 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/85/stages/472/implement
-status: Failed
+status: Solved
 feedback:
-  message: "Wrong answer in test #3\n\nExpected to have Please wait around 0 minutes\
-    \ on /get_ticket/change_oil page after\n\tClient #1 get ticket for inflating tires\n\
-    \tClient #2 get ticket for changing oil"
-  time: Thu, 22 Oct 2020 20:55:20 UTC
-record: -1
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/85/stages/472/implement">JetBrains
+    Academy</a>
+  time: Fri, 23 Oct 2020 21:51:13 UTC
+record: 3
