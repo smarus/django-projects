@@ -16,12 +16,20 @@ stages:
   step: 9415
 topics:
   0:
-  - title: Introduction to OOP
-    theory_id: 3614
   - title: The concept of patterns
     theory_id: 3611
-  - title: Frameworks
-    theory_id: 6701
+  - title: Introduction to operating systems
+    theory_id: 9704
+  - title: IDE
+    theory_id: 10996
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and options
+    theory_id: 9746
+  - title: Introduction to Django
+    theory_id: 6277
+  - title: Django MVC
+    theory_id: 6285
   - title: World Wide Web
     theory_id: 6633
   - title: HyperText Transfer Protocol
@@ -30,14 +38,16 @@ topics:
     theory_id: 6740
   - title: HTTP messages
     theory_id: 6752
-  - title: Regexps basics
-    theory_id: 7580
+  - title: Launching web server
+    theory_id: 6651
+  - title: Processing requests
+    theory_id: 6472
+  - title: Introduction to OOP
+    theory_id: 3614
   - title: Intro to computational thinking
     theory_id: 8742
   - title: Components of computational thinking
     theory_id: 8745
-  - title: IDE
-    theory_id: 10996
   - title: Introduction to Python
     theory_id: 5204
   - title: Overview of the basic program
@@ -56,16 +66,14 @@ topics:
     theory_id: 5913
   - title: Program with numbers
     theory_id: 5872
-  - title: List
-    theory_id: 5979
-  - title: Dictionary
-    theory_id: 6481
   - title: Invoking a function
     theory_id: 5891
   - title: Declaring a function
     theory_id: 5900
   - title: Scopes
     theory_id: 6322
+  - title: Arguments
+    theory_id: 7248
   - title: If statement
     theory_id: 5953
   - title: Else statement
@@ -76,8 +84,6 @@ topics:
     theory_id: 6065
   - title: Functional decomposition
     theory_id: 9571
-  - title: Operations with dictionary
-    theory_id: 9008
   - title: Load module
     theory_id: 6019
   - title: Create module
@@ -92,26 +98,16 @@ topics:
     theory_id: 6661
   - title: Class instances
     theory_id: 6669
+  - title: Frameworks
+    theory_id: 6701
   - title: Methods
     theory_id: 6931
-  - title: Introduction to operating systems
-    theory_id: 9704
-  - title: Command line overview
-    theory_id: 8977
-  - title: Parameters and options
-    theory_id: 9746
-  - title: Pip
-    theory_id: 6230
-  - title: Introduction to Django
-    theory_id: 6277
-  - title: Django MVC
-    theory_id: 6285
-  - title: Launching web server
-    theory_id: 6651
-  - title: Processing requests
-    theory_id: 6472
+  - title: Regexps basics
+    theory_id: 7580
   - title: PyCharm basics
     theory_id: 6193
+  - title: Pip
+    theory_id: 6230
   - title: Basic data types
     theory_id: 5852
   - title: Integer arithmetic
@@ -124,31 +120,51 @@ topics:
     theory_id: 5859
   - title: String formatting
     theory_id: 6037
+  - title: List
+    theory_id: 5979
   - title: Boolean logic
     theory_id: 6025
   - title: Comparisons
     theory_id: 5920
+  - title: Dictionary
+    theory_id: 6481
   - title: Basic string methods
     theory_id: 6842
+  - title: Dictionary methods
+    theory_id: 9008
+  - title: Operations with dictionary
+    theory_id: 11096
   - title: Split and join
     theory_id: 6972
   1:
   - title: Files
     theory_id: 6989
-  - title: Design principles
-    theory_id: 8956
+  - title: HTML basics
+    theory_id: 6434
+  - title: Tags and attributes
+    theory_id: 7536
+  - title: HTML page structure
+    theory_id: 6491
+  - title: Inline Elements
+    theory_id: 7518
+  - title: Django template language
+    theory_id: 6391
+  - title: Template filters
+    theory_id: 10006
   - title: Bugs and debugging
     theory_id: 5504
-  - title: JSON
-    theory_id: 6854
   - title: Introduction to Python shell
     theory_id: 8133
   - title: Experiments with Python shell
     theory_id: 8238
+  - title: JSON
+    theory_id: 6854
   - title: Datetime module
     theory_id: 7324
   - title: Debugging in shell
     theory_id: 8244
+  - title: Design principles
+    theory_id: 8956
   - title: Files in Python
     theory_id: 8691
   - title: Reading files
@@ -159,50 +175,36 @@ topics:
     theory_id: 8702
   - title: Json module
     theory_id: 8999
-  - title: Django template language
-    theory_id: 6391
-  - title: Template filters
-    theory_id: 10006
-  - title: HTML basics
-    theory_id: 6434
-  - title: Tags and attributes
-    theory_id: 7536
-  - title: HTML page structure
-    theory_id: 6491
-  - title: Inline Elements
-    theory_id: 7518
   2:
-  - title: Indexes
-    theory_id: 6189
-  - title: Arguments
-    theory_id: 7248
-  - title: Operations with list
-    theory_id: 6031
   - title: Template tags
     theory_id: 9998
+  - title: Indexes
+    theory_id: 6189
+  - title: Operations with list
+    theory_id: 6031
   3:
   - title: Domains
     theory_id: 6911
-  - title: Random module
-    theory_id: 6263
-  - title: Submitting data
-    theory_id: 7332
   - title: Block-level elements
     theory_id: 7271
+  - title: What is CSS
+    theory_id: 7678
   - title: HTML attributes id and class
     theory_id: 7527
   - title: HTML forms
     theory_id: 6560
+  - title: Submitting data
+    theory_id: 7332
+  - title: Random module
+    theory_id: 6263
   4:
   - title: REST
     theory_id: 7834
-  - title: Static content
-    theory_id: 10052
   - title: Comments
     theory_id: 7502
-  - title: What is CSS
-    theory_id: 7678
   - title: Connecting CSS to HTML
     theory_id: 7418
   - title: Basic syntax
     theory_id: 7722
+  - title: Static content
+    theory_id: 10052
