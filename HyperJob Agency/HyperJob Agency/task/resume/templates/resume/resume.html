@@ -1,0 +1,7 @@
+{% extends "base_view.html"%}
+{%block title%}Resume{%endblock%}
+{% block content%}
+ {%for resume in resumes %}
+<div>{{resume.author.username}}: {{resume.description}}</div>
+{%endfor%}
+{%endblock%}
