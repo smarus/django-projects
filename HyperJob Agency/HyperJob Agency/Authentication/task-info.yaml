@@ -1,13 +1,6 @@
 type: edu
 custom_name: stage4
 files:
-- name: vacancy/models.py
-  visible: true
-  text: |
-    from django.db import models
-
-    # Create your models here.
-  learner_created: false
 - name: vacancy/migrations/__init__.py
   visible: true
   learner_created: false
@@ -793,6 +786,22 @@ files:
         path('', ResumeView.as_view(), name="resume")
     ]
   learner_created: true
+- name: vacancy/models.py
+  visible: true
+  text: |
+    from django.db import models
+
+    # Create your models here.
+  learner_created: false
+- name: templates/hyperjob/signup.html
+  visible: true
+  learner_created: true
+- name: templates/hyperjob/login.html
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/94/stages/522/implement
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 04 Mar 2021 14:49:38 UTC
+record: 2
