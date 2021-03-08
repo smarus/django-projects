@@ -1,0 +1,12 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: from django.contrib import admin
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7875#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 08 Mar 2021 08:31:18 UTC
+record: -1

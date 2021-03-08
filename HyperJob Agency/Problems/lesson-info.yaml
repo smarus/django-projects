@@ -15,3 +15,9 @@ content:
 - Create a Usual User
 - Create a Superuser
 - Signup View
+- Create Object in the Database
+- Delete Objects from the Database
+- Update Object in the Database
+- Define Read-Only Fields
+- Register Models
+- Add Custom Field

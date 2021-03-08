@@ -17,13 +17,15 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from django.views.generic import RedirectView
-from .views import index, SignUpView, Login
+from .views import index, SignUpView, Login, HomeView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
-    path('resumes', include('resume.urls')),
-    path('vacancies', include('vacancy.urls')),
+    path('home', HomeView.as_view(), name='home'),
+    path('home/', RedirectView.as_view(url='/home')),
+    path('', include('resume.urls')),
+    path('', include('vacancy.urls')),
     path('login', Login.as_view()),
     path('signup', SignUpView.as_view()),
     path('signup/', RedirectView.as_view(url='/signup')),

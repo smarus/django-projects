@@ -1,13 +1,6 @@
 type: edu
 custom_name: stage5
 files:
-- name: vacancy/models.py
-  visible: true
-  text: |
-    from django.db import models
-
-    # Create your models here.
-  learner_created: false
 - name: vacancy/migrations/__init__.py
   visible: true
   learner_created: false
@@ -837,6 +830,25 @@ files:
         path('', ResumeView.as_view(), name="resume")
     ]
   learner_created: true
+- name: vacancy/models.py
+  visible: true
+  text: |
+    from django.db import models
+
+    # Create your models here.
+  learner_created: false
+- name: resume/forms.py
+  visible: true
+  learner_created: true
+- name: templates/form.html
+  visible: true
+  learner_created: true
+- name: db.test.sqlite3
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/94/stages/523/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 07 Mar 2021 20:49:45 UTC
 record: -1
